@@ -1,0 +1,69 @@
+.border{
+    border:2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.invert{
+    filter: invert(1);
+}
+
+.bg-black{
+    background-color:black;
+    color: white;
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* Apply the styles to the entire webpage */
+body,.cardContainer ,.songList {
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #1e1e1e #444444;
+    scroll-behavior: smooth; /* Scrollbar thumb and track color for Firefox */
+  }
+  
+  /* For WebKit browsers like Chrome, Edge, Safari */
+  ::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #444444; /* Dark gray background */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #1e1e1e; /* Darker gray thumb */
+    border-radius: 20px; /* Rounded edges */
+    border: 3px solid #444444; /* Adds padding inside the thumb */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #333333; /* Slightly lighter on hover */
+  }
+  
+  .gap{
+    gap: 24px;
+  }
